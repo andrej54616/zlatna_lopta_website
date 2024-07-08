@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/zlatna_lopta_website/static/css/main.d4f69df0.css",
+    "main.js": "/zlatna_lopta_website/static/js/main.55e540ab.js",
+    "static/media/football.jpg": "/zlatna_lopta_website/static/media/football.b62297977deb3a727e59.jpg",
+    "static/media/map.png": "/zlatna_lopta_website/static/media/map.e6387e86a6e76c1828b6.png",
+    "static/media/icons_s.png": "/zlatna_lopta_website/static/media/icons_s.040ad026655a556e9f41.png",
+    "static/media/icons-b.png": "/zlatna_lopta_website/static/media/icons-b.76daca3100d280529b03.png",
+    "static/media/icons_f.png": "/zlatna_lopta_website/static/media/icons_f.3146b7a55e3a62a7818e.png",
+    "static/media/icons_p.png": "/zlatna_lopta_website/static/media/icons_p.212a52cca9dc5e61a57b.png",
+    "static/media/Logo_Zlatna_Lopta-01.png": "/zlatna_lopta_website/static/media/Logo_Zlatna_Lopta-01.a137de28101a5c31ac7f.png",
+    "static/media/instagram.png": "/zlatna_lopta_website/static/media/instagram.0ed8dd304a9e43c98d43.png",
+    "index.html": "/zlatna_lopta_website/index.html",
+    "main.d4f69df0.css.map": "/zlatna_lopta_website/static/css/main.d4f69df0.css.map",
+    "main.55e540ab.js.map": "/zlatna_lopta_website/static/js/main.55e540ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4f69df0.css",
+    "static/js/main.55e540ab.js"
+  ]
+}
