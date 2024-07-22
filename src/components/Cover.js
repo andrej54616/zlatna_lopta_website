@@ -11,8 +11,8 @@ const Cover = () => {
       <img src={logo} alt="Zlatna Lopta Logo" className="cover-logo" />
       <p className='header-text'>Balon za Fudbal</p>
         <h1>Zlatna Lopta</h1>
-        <p className='cover-text'>Provedite zlatne trenutke i uzmite jedan sportski predah od užurbane svakodnevnice.
-        <br/> Vaš termin za mali fudbal možete zakazati putem broja telefona +381 63 37 96 96</p>
+        <p className='cover-text'>Provedite zlatne trenutke i uzmite jedan sportski predah od užurbane svakodnevnice.</p>
+        <p>Vaš termin za mali fudbal možete zakazati putem broja telefona +381 63 37 96 96</p>
       </div>
     </div>
   );

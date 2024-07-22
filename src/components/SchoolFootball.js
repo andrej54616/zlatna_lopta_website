@@ -4,14 +4,15 @@ import image from '../images/football.jpg'
 
 const SchoolOfFootball = () => {
   return (
+    <section>
     <Box sx={{ backgroundColor: '#EFEFEF', paddingY: 4 }}>
       <Container maxWidth="lg" sx={{ margin: 'auto', padding: '2em' }}>
 
       <Typography
       id="školafudbala"
           fontWeight='500' 
-          variant="h3"
-          component="h3"
+          variant="h2"
+          component="h2"
           align="center" 
           sx={{ color: '#000', marginBottom: '1em' }}
         >
@@ -23,7 +24,7 @@ const SchoolOfFootball = () => {
           </Grid>
 
           <Grid item xs={12} md={6}>
-            <Typography align='left' variant="h5" component="h4" sx={{ fontWeight: '500', color: '#333' }}>
+            <Typography align='left' variant="h5" component="h3" sx={{ fontWeight: '500', color: '#333' }}>
               B F C - Škola fudbala
             </Typography>
             <Typography align='left' variant="body1" sx={{ color: '#555', marginBottom: '1em' }}>
@@ -44,6 +45,7 @@ const SchoolOfFootball = () => {
         </Grid>
       </Container>
     </Box>
+    </section>
   );
 };
 

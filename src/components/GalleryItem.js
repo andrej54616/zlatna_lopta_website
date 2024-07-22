@@ -20,8 +20,23 @@ const GalleryItem = ({ src, alt }) => {
 
   return (
     <>
-      <Paper elevation={4} onClick={handleOpen}>
-        <img src={src} alt={alt} style={{ width: '100%', display: 'block', cursor: 'pointer' }} />
+      <Paper
+        elevation={4}
+        onClick={handleOpen}
+        sx={{ overflow: 'hidden', margin: 0, padding: 0 }}
+      >
+        <img
+          src={src}
+          alt={alt}
+          style={{
+            width: '100%',
+            height: 'auto',
+            display: 'block',
+            cursor: 'pointer',
+            margin: 0,
+            padding: 0,
+          }}
+        />
       </Paper>
       <Modal
         open={open}
@@ -30,7 +45,16 @@ const GalleryItem = ({ src, alt }) => {
         aria-describedby="image-modal-description"
       >
         <Box sx={modalStyle}>
-          <img src={src} alt={alt} style={{ width: '100%', maxHeight: '100%' }} />
+          <img
+            src={src}
+            alt={alt}
+            style={{
+              width: '100%',
+              maxHeight: '100%',
+              margin: 0,
+              padding: 0,
+            }}
+          />
         </Box>
       </Modal>
     </>

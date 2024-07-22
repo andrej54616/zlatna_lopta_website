@@ -8,18 +8,19 @@ import icon4 from '../images/icons-b.png'
 
 const About = () => {
     return (
+      <section style={{marginTop:'2em'}}>
       <Container maxWidth={false} sx={{ maxWidth: '1170px', margin: 'auto' }}>
         <Typography
         id="onama"
           fontWeight='500' 
-          variant="h3"
-          component="h3"
+          variant="h2"
+          component="h"
           align="center" 
-          sx={{ color: '#000', marginBottom: '1em', paddingTop: '1em' }}
+          sx={{ color: '#000', marginBottom: '2em', paddingTop: '2em' }}
         >
           O nama
-        </Typography>
-        <Grid container spacing={2}>
+        </Typography >
+        <Grid sx={{marginTop:"2em"}} container spacing={2}>
           <Grid item xs={12} md={6}>   
             <Typography variant="body1" component="p" align="left" style={{ marginBottom: '1em' }}>
             U širem centru grada na uglu ulica Južni bulevar i Đerdapska na opštini Vračar smeštena je savremena balon sala za mali fudbal "Zlatna lopta", kao deo istoimenog sportskog kluba pravo mesto za
@@ -39,7 +40,7 @@ const About = () => {
     sx={(theme) => ({
       overflow: 'hidden', 
       paddingTop: '20px',
-      borderRadius: '20px', 
+      borderRadius: '10px', 
       [theme.breakpoints.up('md')]: {
         paddingTop: '100px'
       }
@@ -49,7 +50,7 @@ const About = () => {
       style={{
         width: '100%',
         height: 'auto',
-        borderRadius: '20px', 
+        borderRadius: '10px', 
       }}
       alt="Complex"
       src={image}
@@ -105,6 +106,7 @@ const About = () => {
 </Grid>
         </Grid>
       </Container>
+      </section>
     );
   };
   
