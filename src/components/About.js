@@ -1,12 +1,26 @@
 import React from 'react';
-import { Container, Grid, Typography, Box, } from '@mui/material';
+import { useState } from "react";
+import { Container, Grid, Typography, Box, IconButton } from '@mui/material';
+import { ArrowBackIos, ArrowForwardIos } from "@mui/icons-material";
 import image from '../images/lokal.jpeg'
+import image2 from '../images/kafic.jpeg'
+import image3 from '../images/terenStrana.jpeg'
 import icon1 from '../images/icons_f.png'
 import icon2 from '../images/icons_p.png'
 import icon3 from '../images/icons_s.png'
 import icon4 from '../images/icons-b.png'
 
+const images = [image, image2, image3];
+
 const About = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const handleNext = () => {
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+  };
+
+  const handlePrev = () => {
+    setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
+  };
     return (
       <section style={{marginTop:'2em'}}>
       <Container maxWidth={false} sx={{ maxWidth: '1170px', margin: 'auto' }}>
@@ -36,26 +50,60 @@ const About = () => {
           </Grid>
           
           <Grid item xs={12} md={6}>
-  <Box
-    sx={(theme) => ({
-      overflow: 'hidden', 
-      paddingTop: '20px',
-      borderRadius: '10px', 
-      [theme.breakpoints.up('md')]: {
-        paddingTop: '100px'
-      }
-    })}
-  >
-    <img
-      style={{
-        width: '100%',
-        height: 'auto',
-        borderRadius: '10px', 
-      }}
-      alt="Complex"
-      src={image}
-    />
-  </Box>
+          <Box
+      sx={(theme) => ({
+        position: "relative",
+        overflow: "hidden",
+        paddingTop: "20px",
+        borderRadius: "10px",
+        [theme.breakpoints.up("md")]: {
+          paddingTop: "10px",
+        },
+      })}
+    >
+      {/* Image Display */}
+      <img
+        style={{
+          width: "100%",
+          height: "auto",
+          borderRadius: "10px",
+        }}
+        alt="Gallery"
+        src={images[currentIndex]}
+      />
+
+      {/* Left Arrow */}
+      <IconButton
+        onClick={handlePrev}
+        sx={{
+          position: "absolute",
+          top: "50%",
+          left: 10,
+          transform: "translateY(-50%)",
+          backgroundColor: "rgba(0, 0, 0, 0.5)",
+          color: "white",
+          "&:hover": { backgroundColor: "rgba(0, 0, 0, 0.7)" },
+        }}
+      >
+        <ArrowBackIos />
+      </IconButton>
+
+      {/* Right Arrow */}
+      <IconButton
+        onClick={handleNext}
+        sx={{
+          position: "absolute",
+          top: "50%",
+          right: 10,
+          transform: "translateY(-50%)",
+          backgroundColor: "rgba(0, 0, 0, 0.5)",
+          color: "white",
+          "&:hover": { backgroundColor: "rgba(0, 0, 0, 0.7)" },
+        }}
+      >
+        <ArrowForwardIos />
+      </IconButton>
+    </Box>
 </Grid>
   
 <Grid container item xs={12} marginTop='20px' justifyContent="space-between" spacing={1}>
