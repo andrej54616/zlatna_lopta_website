@@ -1,8 +1,13 @@
 {
   "files": {
-    "main.css": "/zlatna_lopta_website/static/css/main.d4f69df0.css",
-    "main.js": "/zlatna_lopta_website/static/js/main.ae4e35d7.js",
-    "static/media/football.jpg": "/zlatna_lopta_website/static/media/football.b62297977deb3a727e59.jpg",
+    "main.css": "/zlatna_lopta_website/static/css/main.e3879b10.css",
+    "main.js": "/zlatna_lopta_website/static/js/main.1e0626d2.js",
+    "static/media/lokal.jpeg": "/zlatna_lopta_website/static/media/lokal.f4969e7043da52b51546.jpeg",
+    "static/media/terenStrana.jpeg": "/zlatna_lopta_website/static/media/terenStrana.39c36678a6fde81a9e2a.jpeg",
+    "static/media/terenTrava.jpeg": "/zlatna_lopta_website/static/media/terenTrava.c51e7bbcf4a8dec634b2.jpeg",
+    "static/media/terenPozadina.jpeg": "/zlatna_lopta_website/static/media/terenPozadina.58fbe79c357d9ba59230.jpeg",
+    "static/media/kafic.jpeg": "/zlatna_lopta_website/static/media/kafic.fdb2ffb81d8bee4f3874.jpeg",
+    "static/media/skolaFudbala.png": "/zlatna_lopta_website/static/media/skolaFudbala.90da2077bb1372a324ee.png",
     "static/media/map.png": "/zlatna_lopta_website/static/media/map.e6387e86a6e76c1828b6.png",
     "static/media/mapPhone-01.png": "/zlatna_lopta_website/static/media/mapPhone-01.2e17b26aca88a69d9742.png",
     "static/media/icons_s.png": "/zlatna_lopta_website/static/media/icons_s.040ad026655a556e9f41.png",
@@ -12,11 +17,11 @@
     "static/media/Logo_Zlatna_Lopta-01.png": "/zlatna_lopta_website/static/media/Logo_Zlatna_Lopta-01.a137de28101a5c31ac7f.png",
     "static/media/instagram.png": "/zlatna_lopta_website/static/media/instagram.0ed8dd304a9e43c98d43.png",
     "index.html": "/zlatna_lopta_website/index.html",
-    "main.d4f69df0.css.map": "/zlatna_lopta_website/static/css/main.d4f69df0.css.map",
-    "main.ae4e35d7.js.map": "/zlatna_lopta_website/static/js/main.ae4e35d7.js.map"
+    "main.e3879b10.css.map": "/zlatna_lopta_website/static/css/main.e3879b10.css.map",
+    "main.1e0626d2.js.map": "/zlatna_lopta_website/static/js/main.1e0626d2.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4f69df0.css",
-    "static/js/main.ae4e35d7.js"
+    "static/css/main.e3879b10.css",
+    "static/js/main.1e0626d2.js"
   ]
 }
