@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Grid, Typography, Box, } from '@mui/material';
-import image from '../images/football.jpg'
+import image from '../images/lokal.jpeg'
 import icon1 from '../images/icons_f.png'
 import icon2 from '../images/icons_p.png'
 import icon3 from '../images/icons_s.png'

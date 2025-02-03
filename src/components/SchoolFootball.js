@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Container, Grid, Typography } from '@mui/material';
-import image from '../images/football.jpg'
+import image from '../images/skolaFudbala.png'
 
 const SchoolOfFootball = () => {
   return (

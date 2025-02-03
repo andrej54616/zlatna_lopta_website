@@ -1,6 +1,8 @@
 import React from 'react';
 import { Container, Grid, Typography } from '@mui/material';
-import image from '../images/football.jpg'
+import image from '../images/kafic.jpeg'
+import image1 from '../images/terenStrana.jpeg'
+import image2 from '../images/terenPozadina.jpeg'
 import GalleryItem from './GalleryItem';
 
 const Birthdays = () => {
@@ -41,10 +43,10 @@ const Birthdays = () => {
                 <GalleryItem src={image} alt="Top Right Image 1" />
               </Grid>
               <Grid item xs={6}>
-                <GalleryItem src={image} alt="Top Right Image 2" />
+                <GalleryItem src={image1} alt="Top Right Image 2" />
               </Grid>
               <Grid item xs={12}>
-                <GalleryItem src={image} alt="Large Image" />
+                <GalleryItem src={image2} alt="Large Image" />
               </Grid>
             </Grid>
           </Grid>
